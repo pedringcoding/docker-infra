@@ -1,0 +1,10 @@
+# tmp folders
+.git
+.cache
+
+# all markdown files
+*.md
+!README*.md
+
+# secret or build files
+.env*
