@@ -25,13 +25,7 @@ docker-compose config
 docker-compose up -d
 ```
 
-View the generated administrator password to log in the first time (Jenkins) to complete installation
-
-```
-docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
-```
-
-And access in [Git](http://localhost:18082/) and [Jenkins](http://localhost:18080/) 
+And access in [Git](http://localhost:18082/)
 
 ## :octocat: Can you support me?
 
