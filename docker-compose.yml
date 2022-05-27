@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.9"
 
 services:
     gogs:
@@ -7,8 +7,8 @@ services:
             - RUN_CROND=true
         image: gogs/gogs:${GOGS_VERSION}
         ports:
-            - "18082:3000"
-            - "28030:22"
+            - 18082:3000
+            - 28030:22
         restart: always
         volumes:
             - ./git/data/conf/app.ini:/data/gogs/conf/app.ini
